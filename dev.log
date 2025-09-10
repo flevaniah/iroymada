@@ -1,0 +1,115 @@
+
+> iroy@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 21.5s
+ ○ Compiling / ...
+ ✓ Compiled /_not-found in 28.8s (582 modules)
+ ⚠ Unsupported metadata viewport is configured in metadata export in /.well-known/appspecific/com.chrome.devtools.json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 15898ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ HEAD / 200 in 29534ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET / 200 in 86ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /.well-known/appspecific/com.chrome.devtools.json. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 130ms
+ ○ Compiling /inscription ...
+ ✓ Compiled /inscription in 1893ms (776 modules)
+ ⚠ Unsupported metadata viewport is configured in metadata export in /inscription. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[Error: ENOENT: no such file or directory, stat '/mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/cache/webpack/server-development/0.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/cache/webpack/server-development/0.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat '/mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/cache/webpack/server-development/0.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/cache/webpack/server-development/0.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat '/mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/cache/webpack/server-development/0.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/cache/webpack/server-development/0.pack.gz'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, stat '/mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/cache/webpack/server-development/0.pack.gz'
+[Error: ENOENT: no such file or directory, stat '/mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/cache/webpack/client-development/1.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/cache/webpack/client-development/1.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat '/mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/cache/webpack/client-development/1.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/cache/webpack/client-development/1.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat '/mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/cache/webpack/client-development/1.pack.gz'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/cache/webpack/client-development/1.pack.gz'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, stat '/mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/cache/webpack/client-development/1.pack.gz'
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1941ms (1000 modules)
+ ⚠ Unsupported metadata viewport is configured in metadata export in /inscription. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /inscription. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/css/app/layout.css. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /_next/static/css/app/layout.css?v=1755087148249 404 in 110ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET / 200 in 93ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/css/app/layout.css. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/main-app.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app-pages-internals.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app/layout.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app/page.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /_next/static/css/app/layout.css?v=1755087159281 404 in 135ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app/error.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /_next/static/chunks/app/layout.js 404 in 165ms
+ GET /_next/static/chunks/main-app.js?v=1755087159281 404 in 179ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 174ms
+ GET /_next/static/chunks/app/page.js 404 in 159ms
+ GET /_next/static/chunks/app/error.js 404 in 155ms
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_next/static/chunks/app/not-found.js. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ GET /_next/static/chunks/app/not-found.js 404 in 45ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat '/mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/server/vendor-chunks/aria-hidden.js'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/aria-hidden' in /mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/server for build dependencies doesn't lead to expected result '/mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/server/vendor-chunks/aria-hidden.js', but to 'Error: Can't resolve './vendor-chunks/aria-hidden' in '/mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/aria-hidden (expected /mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/server/vendor-chunks/aria-hidden.js)
+<w>  at file dependencies /mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/server/webpack-runtime.js
+<w>  at file /mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/server/webpack-runtime.js
+<w>  at file dependencies /mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/server/app/page.js
+<w>  at file /mnt/c/Users/Lenovo/Music/NextJS/iroy/.next/server/app/page.js
+<w>  at file dependencies /mnt/c/Users/Lenovo/Music/NextJS/iroy/node_modules/next/dist/server/require.js
+<w>  at file /mnt/c/Users/Lenovo/Music/NextJS/iroy/node_modules/next/dist/server/require.js
+<w>  at file dependencies /mnt/c/Users/Lenovo/Music/NextJS/iroy/node_modules/next/dist/server/load-components.js
+<w>  at file /mnt/c/Users/Lenovo/Music/NextJS/iroy/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /mnt/c/Users/Lenovo/Music/NextJS/iroy/node_modules/next/dist/build/utils.js
+<w>  at file /mnt/c/Users/Lenovo/Music/NextJS/iroy/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /mnt/c/Users/Lenovo/Music/NextJS/iroy/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at file /mnt/c/Users/Lenovo/Music/NextJS/iroy/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js
+<w>  at resolve commonjs /mnt/c/Users/Lenovo/Music/NextJS/iroy/node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js

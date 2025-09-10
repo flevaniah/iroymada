@@ -1,0 +1,11 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="#00A699" stroke="#ffffff" stroke-width="2"/>
+  
+  <!-- Heart shape -->
+  <path d="M16 26 C16 26 8 20 8 14 C8 11 10 9 13 9 C14.5 9 16 10 16 10 C16 10 17.5 9 19 9 C22 9 24 11 24 14 C24 20 16 26 16 26 Z" fill="white"/>
+  
+  <!-- Small cross in heart -->
+  <rect x="15" y="12" width="2" height="6" fill="#00A699"/>
+  <rect x="13" y="14" width="6" height="2" fill="#00A699"/>
+</svg>

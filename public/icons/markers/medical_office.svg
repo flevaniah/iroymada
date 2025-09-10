@@ -1,0 +1,15 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="#FFB400" stroke="#ffffff" stroke-width="2"/>
+  
+  <!-- Doctor icon/briefcase -->
+  <rect x="9" y="14" width="14" height="9" rx="1" fill="white"/>
+  <rect x="13" y="12" width="6" height="3" rx="0.5" fill="white"/>
+  
+  <!-- Medical cross on briefcase -->
+  <rect x="15" y="16" width="2" height="5" fill="#FFB400"/>
+  <rect x="13" y="17.5" width="6" height="2" fill="#FFB400"/>
+  
+  <!-- Handle -->
+  <rect x="14.5" y="11" width="3" height="1.5" rx="0.5" fill="white"/>
+</svg>

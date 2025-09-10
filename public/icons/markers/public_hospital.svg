@@ -1,0 +1,19 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="#FF5A5F" stroke="#ffffff" stroke-width="2"/>
+  
+  <!-- Hospital building -->
+  <rect x="8" y="12" width="16" height="12" rx="1" fill="white"/>
+  <rect x="10" y="8" width="4" height="4" rx="0.5" fill="white"/>
+  <rect x="18" y="8" width="4" height="4" rx="0.5" fill="white"/>
+  
+  <!-- Cross symbol -->
+  <rect x="15" y="10" width="2" height="8" fill="#FF5A5F"/>
+  <rect x="12" y="13" width="8" height="2" fill="#FF5A5F"/>
+  
+  <!-- Windows -->
+  <rect x="10" y="14" width="1.5" height="1.5" fill="#FF5A5F"/>
+  <rect x="13" y="14" width="1.5" height="1.5" fill="#FF5A5F"/>
+  <rect x="17.5" y="14" width="1.5" height="1.5" fill="#FF5A5F"/>
+  <rect x="20.5" y="14" width="1.5" height="1.5" fill="#FF5A5F"/>
+</svg>
