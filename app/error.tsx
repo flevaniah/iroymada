@@ -36,7 +36,7 @@ export default function Error({
         </div>
 
    
-        {process.env.NODE_ENV === 'development' && (
+        {process.env.IROY_NODE_ENV === 'development' && (
           <div className="bg-coral-light border border-coral-lighter rounded-lg p-4 mb-8 text-left">
             <h3 className="font-semibold text-coral mb-2">Détails de l'erreur :</h3>
             <p className="text-sm text-coral font-mono">
