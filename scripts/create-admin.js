@@ -5,11 +5,17 @@
  * Usage: node scripts/create-admin.js
  */
 
-require('dotenv').config({ path: '.env.local' })
+require('dotenv').config({ path: '.env' })
 const { createClient } = require('@supabase/supabase-js')
 
-const ADMIN_EMAIL = 'admin@iroy.mg'
-const ADMIN_PASSWORD = 'AdminIroy2024!'
+const ADMIN_EMAIL = process.env.ADMIN_EMAIL
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD
+
+if (!ADMIN_EMAIL || !ADMIN_PASSWORD) {
+  console.error('Veuillez définir ADMIN_EMAIL et ADMIN_PASSWORD dans le fichier .env')
+  process.exit(1)
+}
+
 const ADMIN_DATA = {
   first_name: 'Admin',
   last_name: 'Iroy',
