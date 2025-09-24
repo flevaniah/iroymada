@@ -17,10 +17,12 @@ RUN npm run build
 FROM node:22-alpine AS runner
 WORKDIR /app
 ENV NODE_ENV=production
+ENV PORT=3000
 
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 nextjs
-RUN chown -R nextjs:nodejs /app
+RUN addgroup --system --gid 1001 nodejs && adduser --system --uid 1001 nextjs
+RUN mkdir -p /app/.next/cache && \
+    chown -R nextjs:nodejs /app && \
+    chmod -R 755 /app
 
 COPY --from=builder --chown=nextjs:nodejs /app/public ./public
 COPY --from=builder --chown=nextjs:nodejs /app/.next ./.next
@@ -29,6 +31,6 @@ COPY --from=builder --chown=nextjs:nodejs /app/package.json ./package.json
 
 USER nextjs
 
-EXPOSE 3304
+EXPOSE 3000
 
 CMD ["npm", "start"]
