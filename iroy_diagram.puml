@@ -1,0 +1,25 @@
+@startuml
+node "Client Web" {
+  component "Navigateur" as Browser
+}
+
+node "Serveur Frontend" {
+  component "Next.js" as Next
+}
+
+node "Serveur Backend" {
+  component "Express.js API" as API
+}
+
+node "Infra Supabase" {
+  database "PostgreSQL" as DB
+  component "Auth" as Auth
+  component "Storage" as Storage
+}
+
+Browser --> Next
+Next --> API
+API --> DB
+API --> Auth
+API --> Storage
+@enduml
