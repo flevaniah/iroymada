@@ -1,6 +1,21 @@
-# autocomplete this dockerignore
 CLAUDE.md
 specs_iroy.md
 README.md
 .CLAUDE
-cypress
+.git
+.gitignore
+README.md
+node_modules
+npm-debug.log
+.DS_Store
+.env.local
+.env.development
+.cypress
+cypress.config.ts
+cypress/
+.coverage
+.nyc_output
+.dockerignore
+Dockerfile
+docker-compose.yml
+.github
