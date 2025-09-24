@@ -33,6 +33,9 @@ jobs:
           tags: |
             ${{ secrets.DOCKER_USERNAME }}/iroy-app:latest
             ${{ secrets.DOCKER_USERNAME }}/iroy-app:${{ github.sha }}
+          build-args: |
+            NEXT_PUBLIC_SUPABASE_URL=${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+            NEXT_PUBLIC_SUPABASE_ANON_KEY=${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
 
       # 4. Déploiement (exemple via SSH sur un VPS)
       - name: Deploy to server
