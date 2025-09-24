@@ -1,0 +1,17 @@
+services:
+  iroy-app:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: iroy-app
+    ports:
+      - "3304:3000"
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_SUPABASE_URL=${NEXT_PUBLIC_SUPABASE_URL}
+      - NEXT_PUBLIC_SUPABASE_ANON_KEY=${NEXT_PUBLIC_SUPABASE_ANON_KEY}
+      - SUPABASE_SERVICE_ROLE_KEY=${SUPABASE_SERVICE_ROLE_KEY}
+      - TZ=${IROY_TZ}
+    restart: unless-stopped
+
+volumes: {}
